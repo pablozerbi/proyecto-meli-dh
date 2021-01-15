@@ -1,0 +1,445 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*---------- HEADER ----------*/
+header img,
+header form{
+    width: auto;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    width: 200px;
+} 
+.busqueda{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    max-height: 25px;
+}
+.copy-header{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.hamburguer-button{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.main-header-top-bar img{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.main-header-top-bar form{
+    display: flex;
+    width: auto;
+    align-self: center;
+    text-justify: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.main-header-top-bar form input{
+    border: none;
+    height: 5vh;
+    padding: 0px 10px;
+}
+.main-header-top-bar form button{
+    border: none;
+    height: 5vh;
+    background-color: white;
+    text-align: right;
+    padding: 0px 10px;
+}
+.main-header-top-bar h2{
+    margin: auto;
+    padding: 20px 0px;
+}
+.main-navbar{
+    display: none;
+    margin-top: 10px;
+}
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+
+/*---------- BODY / MAIN ----------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+main{
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+main h3{
+    padding: 20px 0px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+    display: block;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main section article{
+    background-color: #fff;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+main section article img{
+    display: block;
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+/*---------- FOOTER ----------*/
+footer{
+    background-color: #fff;
+    color: #666;
+    padding: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer div{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer h4{
+    padding-bottom: 10px;
+}
+footer i{
+    color: #1259c3;
+    padding: 20px;
+}
+.copyright{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: #ebebeb;
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+/*---------- LOGIN / REGISTER ----------*/
+div.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div.profile input,
+div.profile label{
+    width: auto;
+    width: auto;
+}
+div.inter input,
+div.inter label{
+    width: auto;
+    width: auto;
+}
+div.inter label{
+    padding-left: 4vw;
+}
+
+.login input,
+.register input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.login input[type='submit'],
+.register input[type='submit']{
+    color: #FFF;
+    background-color: #0044AA;  
+    border-radius: 5px;
+}
+
+.login input[type='submit']:hover,
+.register input[type='submit']:hover{
+    background-color: #0022AA;
+}
+
+.register input[type='reset']{
+    color: #FFF;
+    background-color: #AA0044;
+}
+
+.register input[type='reset']:hover{
+    background-color: #CC1155;
+}
+.flex-conteiner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding-top: 20px;
+}
+.price{
+    display: flex;
+    align-items: flex-start;
+}
+.discount{
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------- VISTA PARA TABLET ----------*/
+@media (min-width: 480px){
+    main{
+        padding-top: 5vh;
+    }
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-header-top-bar img{
+        width: 33%;
+        padding-right: 3vw;
+    }
+    .main-header-top-bar form{
+        display: flex;
+        width: 33%;
+        align-self: center;
+        justify-content: center;
+    }
+    .main-header-top-bar h2{
+        width: 33%;
+        margin: auto;
+        align-self: auto;
+    }
+    .copy-header{
+        font-size: 20px;
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    article{
+        max-width: 48%;
+    }
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section.banner img{
+            width: 100%;
+            display: block;
+        }
+    .login{
+        max-width: 400px;
+    }
+    footer{
+        background-color: #fff;
+        color: #666;
+        padding: 20px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer div{
+        width: 30%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*---------- VISTA PARA DESKTOP ----------*/
+@media (min-width: 1000px){
+    .logo{
+        width: 250px;
+    }
+    .main-header-top-bar, .main-navbar{
+    max-width: 1300px;
+    margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .main-navbar{
+        margin-top: 20px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    article{
+        max-width: 24%;
+
+    }
+    .description{
+        display:none;
+    }
+    article:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    article:hover .description{
+        display: block;
+    }
+
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .login{
+        max-width: 400px;
+    }
+    section.banner img{
+        width: 100%;
+        display: block;
+    }
+    footer{
+        background-color: #fff;
+        color: #666;
+        padding: 20px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer div{
+        width: 30%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    footer i:hover{
+    color: #0044AA;  
+    }
+}
